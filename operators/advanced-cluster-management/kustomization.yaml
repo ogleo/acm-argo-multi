@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+commonAnnotations:
+  argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+
+resources:
+  - namespace.yaml
+  - operator-group.yaml
+  - subscription.yaml
+  - clusterrolebinding-admin.yaml
+  - multiclusterhub.yaml
+  - managedclusterset.yaml
+  - managedclustersetbinding.yaml
+  - placement.yaml
+  - gitopscluster.yaml
