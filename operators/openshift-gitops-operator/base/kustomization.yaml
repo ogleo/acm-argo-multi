@@ -6,6 +6,6 @@ commonAnnotations:
 
 resources:
   - subscription.yaml
-  - argocd.yaml
-  - clusterrolebinding-admin.yaml
-  - cluster-config-project.yaml
+  #- argocd.yaml
+  #- clusterrolebinding-admin.yaml
+  #- cluster-config-project.yaml
