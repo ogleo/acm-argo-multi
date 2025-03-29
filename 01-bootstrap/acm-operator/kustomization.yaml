@@ -3,6 +3,6 @@ kind: Kustomization
 
 resources:
 - acm-namespace.yaml
-#- acm-operatorgroup.yaml
-#- acm-subscription.yaml
+- acm-operatorgroup.yaml
+- acm-subscription.yaml
 #- acm-multiclusterhub.yaml
