@@ -6,7 +6,7 @@ commonAnnotations:
 
 resources:
   - namespace.yaml
-  - operator-group.yaml
+  #- operator-group.yaml
   #- subscription.yaml
   #- argocd.yaml
   #- clusterrolebinding-admin.yaml
