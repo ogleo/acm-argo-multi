@@ -9,5 +9,5 @@ resources:
   - operator-group.yaml
   - subscription.yaml
   #- argocd.yaml
-  #- clusterrolebinding-admin.yaml
-  #- cluster-config-project.yaml
+  - clusterrolebinding-admin.yaml
+  - cluster-config-project.yaml
