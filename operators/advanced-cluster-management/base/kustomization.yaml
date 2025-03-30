@@ -5,7 +5,7 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
 resources:
-  - namespace.yaml
+  - namespace-open-cluster-management.yaml
   - operator-group.yaml
   - subscription.yaml
   - clusterrolebinding-admin.yaml
