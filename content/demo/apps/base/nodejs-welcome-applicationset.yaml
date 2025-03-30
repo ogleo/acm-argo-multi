@@ -19,7 +19,7 @@ spec:
       source:
         repoURL: https://github.com/ogleo/acm-argo-multi.git
         targetRevision: main
-        path: content/demo/apps/base
+        path: nodejs-welcome/base
       destination:
         namespace: welcome
         server: "{{server}}" 
