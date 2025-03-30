@@ -5,7 +5,8 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
 resources:
-  - namespace.yaml
+  - namespace-openshift-gitops.yaml
+  - namespace-openshift-gitops-operator .yaml
   - operator-group.yaml
   - subscription.yaml
   #- argocd.yaml
