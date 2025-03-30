@@ -17,9 +17,9 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/sa-ne/acm-argocd-application.git
+        repoURL: https://github.com/ogleo/acm-argo-multi.git
         targetRevision: main
-        path: gitops/manifests/nodejs-welcome/base
+        path: content/demo/apps/base
       destination:
         namespace: welcome
         server: "{{server}}" 
