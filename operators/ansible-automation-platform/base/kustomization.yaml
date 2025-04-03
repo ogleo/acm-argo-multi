@@ -7,4 +7,4 @@ resources:
 - subscription.yaml
 - controller.yaml
 # - eventDrivenAnsible.yaml # narazie nam niepotrzebne
-#- hub.yaml
+- hub.yaml
