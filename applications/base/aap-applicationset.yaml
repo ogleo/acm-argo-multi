@@ -22,7 +22,7 @@ spec:
         path: operators/ansible-automation-platform/base
       destination:
         namespace: aap
-        server: "{{server}}" 
+        server: "{{server}}"
       syncPolicy:
         automated:
           selfHeal: false
