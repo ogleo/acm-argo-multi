@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - namespace-ansible-automation-patform.yaml
-- operator-group.yaml
+#- operator-group.yaml
 #- subscription.yaml
 #- controller.yaml
 # - eventDrivenAnsible.yaml # narazie nam niepotrzebne
