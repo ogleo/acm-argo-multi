@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nodejs-welcome
-          image: quay.io/stauil/nodejs-welcome:latest
+          image: image-registry.openshift-image-registry.svc:5000/openshift/nodejs-webapp:latest
           ports:
             - containerPort: 8080
               protocol: TCP
