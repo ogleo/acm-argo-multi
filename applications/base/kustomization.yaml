@@ -6,4 +6,4 @@ commonAnnotations:
 
 resources:
   #- acs-applicationset.yaml
-  - aap-applicationset.yaml
+  #- aap-applicationset.yaml
